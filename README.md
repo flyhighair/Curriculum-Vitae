@@ -28,24 +28,19 @@
 ### フレームワーク
 
 - [Express](https://expressjs.com/)
-
-  Node.jsフレームワーク。AndroidアプリのAPIサーバー実装やWebアプリケーションに使用。
+  - Node.jsフレームワーク。AndroidアプリのAPIサーバー実装やWebアプリケーションに使用。
 
 - [Meteor](https://www.meteor.com/)
-
-  Node.jsフレームワーク。[Rocket.Chat](https://rocket.chat/)というSlackライクのチャットシステムOSSをカスタマイズ利用した受託開発で使用。
+  - Node.jsフレームワーク。[Rocket.Chat](https://rocket.chat/)というSlackライクのチャットシステムOSSをカスタマイズ利用した受託開発で使用。
 
 - [Bot Builder](https://github.com/Microsoft/BotBuilder)
-
-  Bot開発用フレームワーク。言語はJavaScriptを使用。
+  - Bot開発用フレームワーク。言語はJavaScriptを使用。
 
 - [Vaadin](https://vaadin.com/)
-
-  Webアプリケーション向けJavaフレームワーク。医療データ管理画面開発で使用。
+  - Webアプリケーション向けJavaフレームワーク。医療データ管理画面開発で使用。
 
 - [React Native](https://facebook.github.io/react-native/)
-
-  JavaScriptハイブリッドアプリケーション向けフレームワーク。チャットシステムのクライアント組み込み用アプリケーションに使用。
+  - JavaScriptハイブリッドアプリケーション向けフレームワーク。チャットシステムのクライアント組み込み用アプリケーションに使用。
 
 - Jest
 - Mocha
