@@ -42,6 +42,9 @@
 - [React Native](https://facebook.github.io/react-native/)
   - JavaScriptハイブリッドアプリケーション向けフレームワーク。チャットシステムのクライアント組み込み用アプリケーションに使用。
 
+- [Cordova](https://cordova.apache.org/)
+  - JavaScriptハイブリッドアプリケーション向けフレームワーク。
+
 - Jest
 - Mocha
 
@@ -63,6 +66,7 @@
   - Azure SQL Database
   - App Service
   - Storage
+  - Cognitive Services
 
 - AWS
   - Amazon Elastic Container Service
@@ -84,6 +88,7 @@
 - HTML5 プロフェッショナル認定試験レベル1・2
 - Oracle Certified Java Programmer, Silver SE 8
 - 小学校教諭1種免許
+- 幼稚園教諭1種免許
 
 ## 受賞歴
 
@@ -115,17 +120,20 @@
 
 ## 職務経歴
 
-### 2017/04 - 現在: ヘルスケア・医療向けアプリケーション受託開発の中小企業
+### 2017/04 - 現在: I株式会社
+
+業務内容: ヘルスケア・医療向けアプリケーション受託開発
 
 職務: フルスタックエンジニア(Webメイン)・社内SE
 
 ---
-#### 社内デモ向けVUIチャットボットアプリケーション
+
+#### 社内デモ向けVUIチャットボットアプリケーション(2018 03-09)
 
 ##### 概要
 
-- お客様が社内で音声チャットボットの開発研究を進めるためのデモ向けアプリケーションとして、プロトタイプ実装を行いました。
-- 要件定義、インフラ設計から行い、当日のデモサポートまで一通り担当しました。
+- クライアントの社内での音声チャットボットのデモ向けアプリケーションとして、プロトタイプ実装を行いました。
+- 要件定義、インフラ設計から行い、デモサポートまで一通り担当しました。
 
 ##### 担当業務
 
@@ -138,18 +146,52 @@
 
 ##### 採用技術
 
-- 開発言語はサーバーサイドでNode.js、フレームワークはExpress.js・Microsoft Bot Framework、DBにAzure SQL Database、画像ストレージにAzure Storage、アプリ基盤として、Azure FunctionsとAzure WebAppsを使用。 チャットボットの自然言語処理にMicrosoft Cognitive ServiceのLUISを利用。LUISの解析結果分析のため、PowerBIを使用。
-後述にはなりますが、開発途中でクライアントのハードをAndroidに切り替えたため、言語にKotlin、音声認識にAndroid Speech Recognizer、音声発話にAzure Cognitive ServicesのText to Speechを使用。
+- 開発言語
+  - Node.js
+  - Kotlin
+- フレームワーク
+  - Express
+  - botbuilder
+- プラットフォーム
+  - Microsoft Azure
+    - Azure SQL Database
+    - Storage
+    - WebApps
+    - Cognitive Services(Text to Speech)
+  - PowerBI
 
 ##### 開発について
 
 - 3ヶ月*2回のスクラム開発を行い、前半はAmazon Echoのアプリケーションとして開発、後半はAndroidアプリケーションとして開発しました。
 - 前半と後半でクライアントのハードを変更していますが、スクラム開発の性質上、ボットのロジックをサーバーサイドに集約するよう設計・実装していたため、手戻りなく開発を進行しました。
 - スクラム開発は社内でも3事例目であり、自身もスクラムマスターとして開発に参加するのは、初めてだったため、開発2ヶ月目ごろでScrum Inc.の認定スクラムマスター研修に参加し、認定を取得しました。
-- プロトタイプ完成の1ヶ月後にお客様社内で発表を行った。特にトラブルもなく、今後の事業化へとつながりました。
 
 ---
-#### 医療従事者向け患者情報管理画面システム開発
+
+#### 医療向け電子化アプリケーション(201711 - 201802)
+
+##### 概要
+
+- 紙で行っていた業務を電子化したiOSアプリケーションを実装しました。
+- 要件定義から、画面デザイン、製造・試験まで行いました。
+
+##### 担当業務
+
+- 開発チームリーダー
+- 技術調査・選定
+- 要件定義・基本設計・詳細設計
+- 実装・テスト
+
+##### 採用技術
+
+- 開発言語
+  - JavaScript
+- フレームワーク
+  - Cordova
+
+---
+
+#### 医療従事者向け患者情報管理画面システム開発(201704-201803)
 
 ##### 概要
 
@@ -163,5 +205,23 @@
 
 ##### 採用技術
 
-- 管理画面は開発言語にJava8、フレームワークはVaadin、DBにAWS Aurora、アプリケーションサーバーにJavaEEのWildflyを使用した。チャットシステムは開発言語にNode.js、フレームワークにMeteor、チャット基盤にOSSの、Rocket.Chat、DBにMongoDBを使用。インフラとして、AWSを使用し、アプリケーションはAWS ECSを使用したDockerコンテナでAWS EC2上に構築した。
-CI環境として、CircleCIを使用し、AWS ECRへDockerイメージの自動デプロイを行った。
+- 開発言語
+  - Node.js
+  - Java 8
+- フレームワーク
+  - Meteor
+  - Vaadin
+- プラットフォーム
+  - AWS
+    - Amazon Elastic Container Service
+    - ECR
+    - Amazon EC2
+    - Amazon RDS(Aurora)
+    - AWS Lambda
+    - Amazon CloudWatch
+    - Amazon S3
+    - Amazon Simple Notification Service
+    - Amazon Simple Email Service
+    - Elastic Load Balancing
+  - Docker
+  - CircleCI
